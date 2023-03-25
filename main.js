@@ -166,7 +166,7 @@ for (let i = 0; i < subNavLinks.length; i++) {
 }
 
 const request = new XMLHttpRequest();
-request.open('GET', '/images/gd/logos', true);
+request.open('GET', './images/gd/logos', true);
 request.responseType = 'document';
 request.onload = () => {
   const elements = request.response.querySelectorAll('a');
