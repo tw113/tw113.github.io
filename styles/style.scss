@@ -238,6 +238,58 @@ a {
   }
 }
 
+.ui-image-container {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50vh;
+
+  h3 {
+    margin-top: 3rem;
+  }
+
+  img {
+    width: 75%;
+
+    &:hover {
+      width: 100%;
+    }
+  }
+}
+
+.graphic-design-container {
+  margin-bottom: 50vh;
+}
+
+.gd-container {
+  column-count: 4;
+  column-gap: 3rem;
+
+  .img-box {
+    display: inline-block;
+    width: 100%;
+
+    img {
+      display: block;
+      width: 100%;
+      margin-bottom: 3rem;
+    }
+  }
+}
+
+.gd-long-logos {
+  width: 100%;
+
+  img {
+    width: 60%;
+    margin-bottom: 3rem;
+  }
+}
+
+.more {
+  width: 40%;
+  float: right;
+}
+
 footer {
   width: 90%;
   position: fixed;

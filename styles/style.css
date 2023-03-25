@@ -277,6 +277,60 @@ a:hover {
   color: #dd8965;
 }
 
+.ui-image-container {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50vh;
+}
+
+.ui-image-container h3 {
+  margin-top: 3rem;
+}
+
+.ui-image-container img {
+  width: 75%;
+}
+
+.ui-image-container img:hover {
+  width: 100%;
+}
+
+.graphic-design-container {
+  margin-bottom: 50vh;
+}
+
+.gd-container {
+  -webkit-column-count: 4;
+          column-count: 4;
+  -webkit-column-gap: 3rem;
+          column-gap: 3rem;
+}
+
+.gd-container .img-box {
+  display: inline-block;
+  width: 100%;
+}
+
+.gd-container .img-box img {
+  display: block;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.gd-long-logos {
+  width: 100%;
+}
+
+.gd-long-logos img {
+  width: 60%;
+  margin-bottom: 3rem;
+}
+
+.more {
+  width: 40%;
+  float: right;
+}
+
 footer {
   width: 90%;
   position: fixed;

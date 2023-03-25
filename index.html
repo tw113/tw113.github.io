@@ -41,25 +41,50 @@
       </div>
       <div class="w-full">
         <div id="me" class="content">
-          <h2>Hello! My name is Tanner.</h2>
-          <p>
-            I am an experienced Full-Stack Software Engineer with a demonstrated
-            history of working in the software industry. Skilled in HTML5, SCSS,
-            JavaScript, React, .NET, and SQL.
-            <br />
-            <br />
-            I am also a Graphic Designer with an eye for UI and UX Design.
-          </p>
+          <div class="about-container">
+            <div>
+              <h2>Hello! My name is Tanner.</h2>
+              <p>
+                I am an experienced Full-Stack Software Engineer with a
+                demonstrated history of working in the software industry.
+                Skilled in HTML5, SCSS, JavaScript, React, .NET, and SQL.
+                <br />
+                <br />
+                I am also a Graphic Designer with an eye for UI and UX Design.
+                <br />
+                <br />
+                The left and right side of my brain are best buds. I like to
+                create and engineer.
+              </p>
+            </div>
+            <div class="more">
+              <h3>More about me:</h3>
+              I have a beautiful wife and 3 beautiful children. We like to play
+              outside, go on hikes and bike rides, go camping and 4x4ing, and go
+              on awesome family trips
+              <h3>Hobbies:</h3>
+              <i class="fa-solid fa-music noanim" title="Music"></i>
+              <i class="fa-solid fa-guitar noanim" title="Guitar"></i>
+              <i class="fa-solid fa-truck-monster noanim" title="4x4ing"></i>
+              <i class="fa-solid fa-campground noanim" title="Camping"></i>
+              <i class="fa-solid fa-person-hiking noanim" title="Hiking"></i>
+              <i class="fa-solid fa-volleyball noanim" title="Volleyball"></i>
+              <i class="fa-solid fa-hammer" title="Building Things"></i>
+              <i class="fa-solid fa-lightbulb" title="Brainstorming"></i>
+              <i class="fa-solid fa-microchip" title="Electronics"></i>
+              <i class="fa-solid fa-gamepad noanim" title="Nintendo Switch"></i>
+            </div>
+          </div>
         </div>
         <div id="skills" class="content" hidden="true">
           <h2>Frontend</h2>
           <div class="flex">
-            <i class="fa-brands fa-react"></i>
-            <i class="fa-brands fa-angular"></i>
-            <i class="fa-brands fa-js"></i>
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3"></i>
-            <i class="fa-brands fa-sass"></i>
+            <i class="fa-brands fa-react" title="React.js"></i>
+            <i class="fa-brands fa-angular" title="Angular"></i>
+            <i class="fa-brands fa-js" title="JavaScript"></i>
+            <i class="fa-brands fa-html5" title="HTML"></i>
+            <i class="fa-brands fa-css3" title="CSS"></i>
+            <i class="fa-brands fa-sass" title="SASS"></i>
           </div>
           <h2>Backend</h2>
           <div>
@@ -98,8 +123,6 @@
               </div>
             </div>
           </div>
-          <div id="ui" hidden="true">ui / ux</div>
-          <div id="design" hidden="true">graphic design</div>
         </div>
         <div id="projects" class="content" hidden="true">
           <nav id="sub-nav">
@@ -161,6 +184,10 @@
                     <i class="fa-brands fa-angular noanim"></i>
                     <i class="fa-brands fa-css3 noanim"></i>
                   </div>
+                  <img
+                    src="/images/dashboard-thumb.png"
+                    alt="Test dashboard Screenshot"
+                  />
                   <a
                     href="https://github.com/tw113/TestDashboardExample"
                     target="_blank"
@@ -169,6 +196,17 @@
                     View Project
                     <i class="fa-solid fa-arrow-trend-up"></i>
                   </a>
+                </div>
+                <div class="project">
+                  <h3>Streamsizer</h3>
+                  <div class="tech-used">
+                    <i class="fa-brands fa-angular noanim"></i>
+                    <i class="fa-brands fa-css3 noanim"></i>
+                  </div>
+                  <img
+                    src="/images/streamsizer-thumb.png"
+                    alt="Streamsizer Screenshot"
+                  />
                 </div>
                 <div class="project">
                   <h3>CSS Zen Garden</h3>
@@ -221,7 +259,7 @@
                     alt="This website Screenshot"
                   />
                   <a
-                    href=""
+                    href="https://github.com/tw113/personal-website"
                     target="_blank"
                     class="link-icon"
                   >
@@ -231,9 +269,111 @@
                 </div>
               </div>
             </div>
-            <div id="backend" hidden="true">backend</div>
-            <div id="ui" hidden="true">ui / ux</div>
-            <div id="design" hidden="true">graphic design</div>
+            <div id="backend" hidden="true">
+              <div class="project-container">
+                <div class="project">
+                  <h3>Maintenance Scheduler</h3>
+                  <div class="tech-used">
+                    <i class="fa-brands fa-node-js noanim"></i>
+                    <i class="fa-brands fa-js noanim"></i>
+                    <i class="fa-solid fa-leaf"></i>
+                  </div>
+                  <img
+                    src="/images/mongodb-thumb.png"
+                    alt="Maintenance Scheduler Backend"
+                  />
+                  <a
+                    href="https://github.com/tw113/auburn-solar-app/tree/main/server"
+                    target="_blank"
+                    class="link-icon"
+                  >
+                    View Project
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                  </a>
+                </div>
+                <div class="project">
+                  <h3>REST APIs</h3>
+                  <div class="tech-used">
+                    <i class="fa-solid fa-server"></i>
+                  </div>
+                  <img
+                    src="/images/api-thumb.png"
+                    alt="Api screenshot swagger Backend"
+                  />
+                  <h3>Some REST projects I have built/worked on:</h3>
+                  <ul>
+                    <li>API for Insurance Brokerage App</li>
+                    <li>
+                      API for various LMS (Learning Management System) apps
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div id="ui" hidden="true">
+              <div class="ui-image-container">
+                <h3>Trailfinder UI / UX Color Choices</h3>
+                <img
+                  src="/images/trailfinder2-ui.png"
+                  alt="Trailfinder User Experience and User Interface Color"
+                />
+                <h3>Trailfinder UI / UX Style Guide</h3>
+                <img
+                  src="/images/trailfinder-ui.png"
+                  alt="Trailfinder User Experience and User Interface Style Guide"
+                />
+                <h3>Meal Grid App UI</h3>
+                <img
+                  src="/images/mealgrid-ui.png"
+                  alt="Meal Grid App User Interface"
+                />
+                <h3>Auburn Solar Maintenance Scheduler Desktop UI</h3>
+                <img
+                  src="/images/asms-ui1.png"
+                  alt="Maintenance Scheduler Desktop User Interface"
+                />
+                <h3>Auburn Solar Maintenance Scheduler Tablet UI</h3>
+                <img
+                  src="/images/asms-ui3.png"
+                  alt="Maintenance Scheduler Tablet User Interface"
+                />
+                <h3>ExNihilo Game Jam Site</h3>
+                <img
+                  src="/images/engj-site-ui.png"
+                  alt="ExNihilo Game Jam Website Screenshot"
+                />
+                <h3>Anderson Wake School Landing Page</h3>
+                <img
+                  src="/images/anderson-ui.png"
+                  alt="Anderson Wake School Website Screenshot"
+                />
+                <h3>Paradox Kook Brand Store</h3>
+                <img
+                  src="/images/paradox-ui.png"
+                  alt="Paradox Kook Store User Interface"
+                />
+              </div>
+            </div>
+            <div id="design" hidden="true">
+              <div class="graphic-design-container">
+                <h3>Logos</h3>
+                <div class="gd-container"></div>
+                <div class="gd-long-logos">
+                  <img
+                    src="/images/gd/long-width/linkedin_banner.png"
+                    alt="Linkeding Banner Graphic Design"
+                  />
+                  <img
+                    src="/images/gd/long-width/aws-full-logo.png"
+                    alt="Anderson Wake School Logo"
+                  />
+                  <img
+                    src="/images/gd/long-width/streamsizer-logo.png"
+                    alt="Streamsizer Logo"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div id="experience" class="content" hidden="true">
@@ -243,24 +383,23 @@
               <h3>GROW Design & Development</h3>
               <h4>Nov 2022 - Present</h4>
               <p class="description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
-                impedit sed eveniet quo, maiores tenetur iusto? Est asperiores
-                suscipit aliquid praesentium deserunt, tempore nemo voluptatibus
-                corporis culpa ab exercitationem mollitia.
+                Build web applications based on design specifications and
+                clients needs using Angular, .NET Core, Entity Framework, and MS
+                SQL Server
               </p>
             </div>
             <div class="card">
               <h3>American Recovery Service</h3>
               <h4>Mar 2020 - Oct 2022</h4>
               <p class="description">
-                Building and maintaining in-house Windows Forms apps using
-                VB.NET to solve complex back-end problems that involves millions
-                of database transactions per day, happening between our company
-                and hundreds of clients
+                Build and maintain in-house Windows Forms apps using VB.NET to
+                solve complex back-end problems that involves millions of
+                database transactions per day, happening between the company and
+                hundreds of clients
                 <br />
                 <br />
-                Working alongside a small team of developers on large projects,
-                and working alone on smaller projects to create more efficient
+                Work alongside a small team of developers on large projects, and
+                work alone on smaller projects to create more efficient
                 processes and meet business needs
               </p>
             </div>
