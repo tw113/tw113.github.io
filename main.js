@@ -166,19 +166,21 @@ for (let i = 0; i < subNavLinks.length; i++) {
 }
 
 const request = new XMLHttpRequest();
-request.open('GET', 'images/gd/logos', true);
+request.open('GET', './images/gd/icons', true);
 request.responseType = 'document';
 request.onload = () => {
   const elements = request.response.querySelectorAll('a');
   for (let el of elements) {
-    if (el.href.includes('/logos/')) {
-      let div = document.createElement('div');
-      div.classList.add('img-box');
-      let img = document.createElement('img');
-      img.src = el.href;
-      div.appendChild(img);
-      const newEl = gdContainer.appendChild(div);
-      console.log(newEl);
+    if (el.href.includes('/icons/')) {
+      console.log(`
+        <img src="${el.href}" alt="">
+      `);
+      // let div = document.createElement('div');
+      // div.classList.add('img-box');
+      // let img = document.createElement('img');
+      // img.src = el.href;
+      // div.appendChild(img);
+      // const newEl = gdContainer.appendChild(div);
     }
   }
 };
